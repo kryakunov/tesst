@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "name": "Температура в цехах",
+    "days": null,
+    "once": "2025-02-18",
+    "start_at": "19:00:00",
+    "end_at": "11:30:21",
+    "questionnaire_id": 1,
+    "questions": [
+      {
+        "id": 1,
+        "name": "Проверяем температуру в цехах",
+        "description": "Проверяем температуру в цехах",
+        "comment": null,
+        "questionnaire_id": null,
+        "questionnaire_block_id": 1,
+        "answers": [
+          {
+            "id": 3,
+            "name": "Температура высокая",
+            "score": "1.00",
+            "comment": null,
+            "question_id": 1
+          },
+          {
+            "id": 4,
+            "name": "Температура низкая",
+            "score": "2.00",
+            "comment": null,
+            "question_id": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Оставшиеся складываем",
+        "description": "Оставшиеся складываем",
+        "comment": null,
+        "questionnaire_id": null,
+        "questionnaire_block_id": 1,
+        "answers": [
+          {
+            "id": 7,
+            "name": "sdf",
+            "score": "5.00",
+            "comment": null,
+            "question_id": 2
+          },
+          {
+            "id": 8,
+            "name": "ss",
+            "score": "1.00",
+            "comment": null,
+            "question_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Замывка денвной смены",
+    "days": null,
+    "once": "2025-02-18",
+    "start_at": "19:10:00",
+    "end_at": "11:30:36",
+    "questionnaire_id": 1,
+    "questions": [
+      {
+        "id": 3,
+        "name": "Раковины и смесители",
+        "description": "Раковины и смесители",
+        "comment": null,
+        "questionnaire_id": null,
+        "questionnaire_block_id": 2,
+        "answers": [
+          {
+            "id": 5,
+            "name": "раковины на месте",
+            "score": "1.00",
+            "comment": null,
+            "question_id": 3
+          },
+          {
+            "id": 6,
+            "name": "раковины не на месте",
+            "score": "4.00",
+            "comment": null,
+            "question_id": 3
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Стеллаж чистый",
+        "description": "Стеллаж чистый",
+        "comment": null,
+        "questionnaire_id": null,
+        "questionnaire_block_id": 2,
+        "answers": [
+          {
+            "id": 1,
+            "name": "да, чистый",
+            "score": "1.00",
+            "comment": null,
+            "question_id": 4
+          },
+          {
+            "id": 2,
+            "name": "нет, стеллаж грязный",
+            "score": "1.00",
+            "comment": null,
+            "question_id": 4
+          }
+        ]
+      }
+    ]
+  }
+]
